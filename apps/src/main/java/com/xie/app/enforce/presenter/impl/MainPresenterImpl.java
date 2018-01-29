@@ -60,13 +60,13 @@ public class MainPresenterImpl implements IMainPresenter {
             bikeBeans.add(new BikeBean("22" + i, info.getLongitude() - new Random().nextInt(16) * 0.0008, info.getLatitude() + new Random().nextInt(10) * 0.0008));
         }
         for (int i = 0; i < 6; i++) {
-            bikeBeans.add(new BikeBean("33" + i, info.getLongitude() + new Random().nextInt(15) * 0.0008, info.getLatitude() - new Random().nextInt(10) * 0.0007));
+            bikeBeans.add(new BikeBean("33" + i, info.getLongitude() + new Random().nextInt(15) * 0.0008, info.getLatitude() - new Random().nextInt(12) * 0.0007));
         }
-        for (int i = 0; i < 10; i++) {
-            bikeBeans.add(new BikeBean("44" + i, info.getLongitude() + new Random().nextInt(10) * 0.0008, info.getLatitude() + new Random().nextInt(10) * 0.0006));
+        for (int i = 0; i < 8; i++) {
+            bikeBeans.add(new BikeBean("44" + i, info.getLongitude() + new Random().nextInt(10) * 0.0008, info.getLatitude() + new Random().nextInt(15) * 0.0006));
         }
-        for (int i = 0; i < 10; i++) {
-            bikeBeans.add(new BikeBean("55" + i, info.getLongitude() - new Random().nextInt(10) * 0.0004, info.getLatitude() - new Random().nextInt(10) * 0.0005));
+        for (int i = 0; i < 8; i++) {
+            bikeBeans.add(new BikeBean("55" + i, info.getLongitude() - new Random().nextInt(12) * 0.0004, info.getLatitude() - new Random().nextInt(10) * 0.0005));
         }
         mView.getBike(bikeBeans);
        /* mModel.getBike(info, new ModelCallListener() {

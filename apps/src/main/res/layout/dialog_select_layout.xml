@@ -18,6 +18,7 @@
 
         <ListView
             android:id="@+id/list"
+            android:background="@color/white"
             android:fadingEdge="none"
             android:fadingEdgeLength="0dp"
             android:footerDividersEnabled="false"
