@@ -283,7 +283,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
             mMainPresenter.getHttpUser(result);
         }
         float distance = mLbsLayer.getTwoDistance(mCenterLocation, result);
-        if (distance > 1800) {
+        if (distance > 1500) {
             mCenterLocation = result;
             mMainPresenter.getHttpUser(mCenterLocation);
         }
@@ -365,6 +365,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
             mLbsLayer.removeCenterMarker();
             addCenterMarkers();
             mLbsLayer.driverRoute(info, mStartInfo, Color.RED, this);
+            //mLbsLayer.setMapZoom(16);
             mLbsLayer.moveCameraToTwoPoint(mStartInfo, info);
         } else if (info.getType() == 2) {
             ToastUtils.showToast(info.getLatitude() + "  " + info.getLongitude());

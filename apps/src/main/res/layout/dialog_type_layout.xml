@@ -48,7 +48,7 @@
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="240dp"
+            android:layout_height="243dp"
             android:layout_marginBottom="14dp"
             android:layout_marginEnd="32dp"
             android:layout_marginLeft="32dp"
@@ -60,8 +60,11 @@
             android:fadingEdge="none"
             android:fadingEdgeLength="0dp"
             android:footerDividersEnabled="false"
+            android:overScrollMode="never"
             android:headerDividersEnabled="false"
             android:listSelector="@android:color/transparent"
+            android:overScrollFooter="@android:color/transparent"
+            android:overScrollHeader="@android:color/transparent"
             android:scrollbars="none" />
     </LinearLayout>
 </LinearLayout>

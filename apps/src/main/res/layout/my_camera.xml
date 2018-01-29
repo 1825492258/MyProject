@@ -13,7 +13,7 @@
         android:id="@+id/viewfinder_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:inner_corner_color="@color/colorAccent"
+        app:inner_corner_color="@color/text_3385ff"
         app:inner_corner_length="20dp"
         app:inner_corner_width="4dp"
         app:inner_height="250dp"

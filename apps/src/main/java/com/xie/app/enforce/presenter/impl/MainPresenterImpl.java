@@ -57,7 +57,7 @@ public class MainPresenterImpl implements IMainPresenter {
         bikeBeans.clear();
         mView.hideLoading();
         for (int i = 0; i < 8; i++) {
-            bikeBeans.add(new BikeBean("22" + i, info.getLongitude() - new Random().nextInt(16) * 0.0008, info.getLatitude() + new Random().nextInt(10) * 0.0008));
+            bikeBeans.add(new BikeBean("22" + i, info.getLongitude() - new Random().nextInt(12) * 0.0008, info.getLatitude() + new Random().nextInt(10) * 0.0008));
         }
         for (int i = 0; i < 6; i++) {
             bikeBeans.add(new BikeBean("33" + i, info.getLongitude() + new Random().nextInt(15) * 0.0008, info.getLatitude() - new Random().nextInt(12) * 0.0007));
