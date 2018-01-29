@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.uuzuche.lib_zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:inner_corner_color="@color/colorAccent"
+        app:inner_corner_length="20dp"
+        app:inner_corner_width="4dp"
+        app:inner_height="250dp"
+        app:inner_margintop="90dp"
+        app:inner_scan_bitmap="@drawable/fle"
+        app:inner_scan_iscircle="true"
+        app:inner_scan_speed="16"
+        app:inner_width="250dp" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="358dp"
+        android:background="@drawable/shape_scan_text"
+        android:gravity="center"
+        android:text="@string/hint_scan"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</FrameLayout>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.xie.app.enforce.view.fragment.LeftFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:background="@color/text_3385ff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/entity"
+            android:src="@drawable/ic_photo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/law_man"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/left_record"
+            style="@style/setting_text"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_left_one"
+            android:drawableStart="@drawable/ic_left_one"
+            android:text="@string/left_one" />
+
+        <TextView
+            android:id="@+id/left_setting"
+            style="@style/setting_text"
+            android:drawableLeft="@drawable/ic_left_two"
+            android:drawableStart="@drawable/ic_left_two"
+            android:text="@string/left_two" />
+
+        <TextView
+            android:id="@+id/left_customer"
+            style="@style/setting_text"
+            android:drawableLeft="@drawable/ic_left_three"
+            android:drawableStart="@drawable/ic_left_three"
+            android:text="@string/left_three" />
+
+        <TextView
+            android:id="@+id/left_about"
+            style="@style/setting_text"
+            android:drawableLeft="@drawable/ic_about"
+            android:drawableStart="@drawable/ic_about"
+            android:text="@string/left_four" />
+
+        <View
+            android:id="@+id/left_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+    </LinearLayout>
+</LinearLayout>

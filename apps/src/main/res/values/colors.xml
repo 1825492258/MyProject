@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sp_11">11sp</dimen>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_418dff">#418dff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="trans33">#33000000</color>
+    <color name="text_3385ff">#3385ff</color>
+    <color name="text_999">#999999</color>
+    <color name="text_4a4a4a">#4a4a4a</color>
+    <color name="text_a9a9a9">#a9a9a9</color>
+    <color name="text_212121">#212121</color>
+    <color name="text_383a4c">#383a4c</color>
+    <color name="text_dede">#dedede</color>
+    <color name="text_f3f3f3">#f3f3f3</color>
+    <color name="text_f1f2f3">#f1f2f3</color>
+    <color name="text_565656">#565656</color>
+    <color name="text_e7e7e7">#e7e7e7</color>
+    <integer-array name="load_colors">
+        <item>@color/plus_color_1</item>
+        <item>@color/plus_color_2</item>
+        <item>@color/plus_color_3</item>
+        <item>@color/plus_color_4</item>
+    </integer-array>
+    <color name="plus_color_1">#3e802f</color>
+    <color name="plus_color_2">#f4b400</color>
+    <color name="plus_color_3">#427fed</color>
+    <color name="plus_color_4">#b23424</color>
+</resources>

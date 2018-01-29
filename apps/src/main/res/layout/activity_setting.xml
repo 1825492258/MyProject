@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f4f5"
+    android:orientation="vertical"
+    tools:context="com.xie.app.enforce.view.activity.SettingActivity">
+
+    <include layout="@layout/action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:id="@+id/set_update"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/white"
+            android:drawableEnd="@drawable/ic_right"
+            android:drawableRight="@drawable/ic_right"
+            android:gravity="center_vertical"
+            android:paddingEnd="15dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="15dp"
+            android:paddingStart="18dp"
+            android:text="@string/setting_one"
+            android:textColor="@color/text_383a4c"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/set_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:contentDescription="@string/entity"
+            android:src="@drawable/ic_new" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="12.5dp"
+        android:layout_marginStart="12.5dp"
+        android:background="@color/text_dede" />
+
+    <TextView
+        android:id="@+id/set_clear"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/ic_right"
+        android:drawableRight="@drawable/ic_right"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:paddingStart="18dp"
+        android:text="@string/setting_two"
+        android:textColor="@color/text_383a4c"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/set_exit"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingEnd="15dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:paddingStart="18dp"
+        android:text="@string/exit"
+        android:textColor="@color/text_383a4c"
+        android:textSize="15sp" />
+</LinearLayout>

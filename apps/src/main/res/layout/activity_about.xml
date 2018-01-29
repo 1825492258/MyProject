@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.xie.app.enforce.view.activity.AboutActivity">
+
+    <include layout="@layout/action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:contentDescription="@string/entity"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_about_bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="合肥携尔科技有限公司"
+                android:textColor="#158fff"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/text_dede" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="　　随着云计算互联网和人工智能的快速发展，催生了大数据时代的到来！"
+                android:textColor="@color/text_999"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="　　携尔交通大数据平台的诞生，标志着智慧交通时代的来临。一旦拥有了携尔交通大数据，政府就可以实时监控交通状况、科学规划城市空间、合理布局交通资源。"
+                android:textColor="@color/text_999"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="　　携尔交通大数据管理平台在美国的贝尔实验室，普林斯顿大学和中国科技大学的技术支持，采用全球最先进的四网合一定位技术，加上平台独创的算法，结合载波相位差分技术，通过电子围栏、虚拟车装和负面清单的设置，对车辆的运营和停放进行精准管理。对市民的用车行为加以规范。再辅之以押金托管和跨平台APP的使用，为市民打造温馨的智慧家园，为城市打造人性化的交通生态。携尔交通大数据管理平台，用最先进的科技手段，创新政府管理模式，实现政府多个部门在同一平台上联合执法，依法施政的新格局。"
+                android:textColor="@color/text_999"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

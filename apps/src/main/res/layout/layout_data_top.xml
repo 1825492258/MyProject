@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/text_f1f2f3"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_top_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="全部违章"
+            android:textColor="@color/text_383a4c"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/img_top_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/tv_top_left"
+            android:layout_toRightOf="@id/tv_top_left"
+            android:contentDescription="@string/entity"
+            android:src="@drawable/ic_data_bottom" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#e3e3e3" />
+
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_top_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="最近7天"
+            android:textColor="@color/text_383a4c"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/img_top_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/tv_top_right"
+            android:layout_toRightOf="@id/tv_top_right"
+            android:contentDescription="@string/entity"
+            android:src="@drawable/ic_data_bottom" />
+    </RelativeLayout>
+</LinearLayout>

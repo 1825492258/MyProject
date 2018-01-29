@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f2f3"
+    android:orientation="vertical"
+    tools:context="com.xie.app.enforce.view.activity.DetailsActivity">
+
+    <include layout="@layout/action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    style="@style/text_ride"
+                    android:text="@string/ride_info" />
+
+                <View style="@style/view_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/entity"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="张三"
+                            android:textColor="#565656"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="2018-01-02 15:32:20"
+                            android:textColor="#565656"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/view_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ride_case" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:text="逆向行驶"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="34dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ride_place" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:text="合肥市高新区中瑞大厦"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    style="@style/text_ride"
+                    android:text="@string/ride_info" />
+
+                <View style="@style/view_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ride_number" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:text="0551121212"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="34dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ride_company" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:text="OFO共享单车"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ride_person" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:drawableEnd="@drawable/ic_phone"
+                        android:drawablePadding="12dp"
+                        android:drawableRight="@drawable/ic_phone"
+                        android:gravity="end|center_vertical"
+                        android:text="李四"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    style="@style/text_ride"
+                    android:text="@string/ticket_info" />
+
+                <View style="@style/view_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ticker_number" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:text="11111111111111111"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="34dp"
+                    android:layout_marginTop="34dp">
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:text="@string/ticker_time" />
+
+                    <TextView
+                        style="@style/ride_info"
+                        android:layout_width="match_parent"
+                        android:drawableEnd="@drawable/ic_about"
+                        android:drawablePadding="12dp"
+                        android:drawableRight="@drawable/ic_about"
+                        android:gravity="end"
+                        android:text="2017-12-21 12:21:20"
+                        android:textColor="@color/text_565656" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:background="#fffbc9"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="@string/details_info"
+                android:textColor="@color/text_565656"
+                android:textSize="@dimen/sp_11" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

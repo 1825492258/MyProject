@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/item_layout"
+    android:layout_height="45dp">
+    <TextView
+       style="@style/item_text"
+        android:layout_weight="1.2"
+        android:text="20180117000001"
+         />
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_weight="0.6"
+        style="@style/item_text"
+        android:text="张三"
+        />
+    <TextView
+        style="@style/item_text"
+        android:layout_weight="0.6"
+        android:text="20"
+        />
+    <TextView
+        style="@style/item_text"
+        android:text="2018-01-20"
+        />
+</LinearLayout>
